@@ -25,13 +25,13 @@ async def edit_or_reply(msg: Message, **kwargs):
 
 
 @Chizuru.on_edited_message(
-    filters.command(["eval", "chizuru"])
+    filters.command(["eval", "akari"])
     & filters.user(OWNER_ID)
     & ~filters.forwarded
     & ~filters.via_bot
 )
 @Chizuru.on_message(
-    filters.command(["eval", "chizuru"])
+    filters.command(["eval", "akari"])
     & filters.user(OWNER_ID)
     & ~filters.forwarded
     & ~filters.via_bot
