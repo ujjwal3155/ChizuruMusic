@@ -3,7 +3,7 @@ from pyrogram import filters
 from Chizuru import Chizuru, userbot
 from config import SUDO_USERS
 
-BOT_LIST = ["ChizuruMusicBot"]
+BOT_LIST = ["ujjwal_music_bot"]
 
 
 
