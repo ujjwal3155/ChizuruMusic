@@ -106,7 +106,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     font4 = ImageFont.truetype(r'Chizuru/core/resources/chizuru.ttf', 35)
 
     image4 = ImageDraw.Draw(image2)
-    image4.text((10, 10), "CHIZURU MUSIC", fill="white", font = font1, align ="left") 
+    image4.text((10, 10), "AKARI MUSIC", fill="white", font = font1, align ="left") 
     image4.text((670, 150), "NOW PLAYING", fill="white", font = font2, stroke_width=2, stroke_fill="white", align ="left") 
 
     
