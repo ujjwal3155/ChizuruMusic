@@ -63,7 +63,7 @@ async def play(_, message):
         except UserAlreadyParticipant:            
             pass
         except Exception as e:
-            await msg.edit_text(f"**ᴘʟᴇᴀsᴇ ᴍᴀɴᴜᴀʟʟʏ ᴀᴅᴅ ᴀssɪsᴛᴀɴᴛ ᴏʀ ᴄᴏɴᴛᴀᴄᴛ [sᴜᴍɪᴛ ʏᴀᴅᴀᴠ](https://t.me/AnonDeveloper)** ")
+            await msg.edit_text(f"**ᴘʟᴇᴀsᴇ ᴍᴀɴᴜᴀʟʟʏ ᴀᴅᴅ ᴀssɪsᴛᴀɴᴛ ᴏʀ ᴄᴏɴᴛᴀᴄᴛ [ᴜᴊᴡᴀʟ ᴢᴀʟᴡᴀʀ](https://t.me/aye_ujjwal)** ")
                             
     audio = ((message.reply_to_message.audio or message.reply_to_message.voice) if message.reply_to_message else None)
    
@@ -75,7 +75,7 @@ async def play(_, message):
 
         file_path = await message.reply_to_message.download()
         title = audio.file_name 
-        link = "https://t.me/ChizuruMusicBot"
+        link = "https://t.me/ujjwal_music_bot"
         thumbnail = random.choice(local_thumb)
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -175,7 +175,7 @@ async def vplay(_, message):
         except UserAlreadyParticipant:            
             pass
         except Exception as e:
-            await msg.edit_text(f"**ᴘʟᴇᴀsᴇ ᴍᴀɴᴜᴀʟʟʏ ᴀᴅᴅ ᴀssɪsᴛᴀɴᴛ ᴏʀ ᴄᴏɴᴛᴀᴄᴛ [sᴜᴍɪᴛ ʏᴀᴅᴀᴠ](https://t.me/AnonDeveloper)** ")
+            await msg.edit_text(f"**ᴘʟᴇᴀsᴇ ᴍᴀɴᴜᴀʟʟʏ ᴀᴅᴅ ᴀssɪsᴛᴀɴᴛ ᴏʀ ᴄᴏɴᴛᴀᴄᴛ [ᴜᴊᴡᴀʟ ᴢᴀʟᴡᴀʀ](https://t.me/aye_ujjwal)** ")
                             
     video = (message.reply_to_message.video if message.reply_to_message else None)
    
@@ -187,7 +187,7 @@ async def vplay(_, message):
 
         file_path = await message.reply_to_message.download()
         title = video.file_name 
-        link = "https://t.me/ChizuruMusicBot"
+        link = "https://t.me/ujjwal_music_bot"
         thumbnail = random.choice(local_thumb)
         duration = round(video.duration / 60)
         views = "Locally added"
