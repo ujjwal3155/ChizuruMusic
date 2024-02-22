@@ -70,7 +70,7 @@ back_buttons  = [[
 
 @Chizuru.on_message(filters.command("start"))
 async def start(_,message):
-  await message.reply_photo("https://telegra.ph/file/fabb39ffadb15ac0697ab.jpg",
+  await message.reply_photo("https://t.me/mmaminhindi/1898",
                             caption=start_txt.format(message.from_user.mention),reply_markup=button)
 
 
